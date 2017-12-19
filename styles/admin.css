@@ -1,0 +1,164 @@
+.button-primary .dashicons,
+.button-secondary .dashicons {
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+/* #box_contest_manage */
+#box_contest_manage #txt_startdate_day,
+#box_contest_manage #txt_startdate_year,
+#box_contest_manage #txt_enddate_day,
+#box_contest_manage #txt_enddate_year,
+#box_contest_manage #txt_entry_fee {
+    text-align: right;
+}
+
+/* #box_contest_categories */
+#box_contest_categories {}
+#box_contest_categories .categories th {
+    vertical-align: bottom;
+}
+#box_contest_categories .categories td {
+    vertical-align: middle;
+}
+#box_contest_categories .categories .ui-sortable-helper {
+    background-color: #bdc3c7;
+    display: table;
+}
+#box_contest_categories .col-category-sort {
+    width: 20px;
+}
+#box_contest_categories .col-category-sort .dashicons {
+    cursor: ns-resize;
+}
+#box_contest_categories .col-category-name {
+    width: 30%;
+}
+#box_contest_categories .col-category-subcategories {
+    text-align: right;
+    width: 100px;
+}
+#box_contest_categories .col-category-winnings {
+    text-align: right;
+    width: 100px;
+}
+#box_contest_categories .col-category-actions {
+    text-align: right;
+    width: 115px;
+}
+
+/* #box_judges_manage */
+#box_judges_manage .judges .col-categories {
+    width: 65%;
+}
+#box_judges_manage .judges .col-entries-to-judge,
+#box_judges_manage .judges .col-entries-judged {
+    text-align: right;
+    width: 70px;
+}
+#box_judges_manage.judges-assign-categories .judge-categories .category-row {
+    border-top: solid 1px #888;
+}
+#box_judges_manage.judges-assign-categories .judge-categories .subcategories {
+    display: inline-block;
+    margin-right: 15px;
+    min-width: 200px;
+}
+
+/* #box_entries_manage */
+#box_entries_manage .entries th.col-entry {
+    width: 15%;
+}
+#box_entries_manage .entries .col-picture {
+    width: 60px;
+}
+#box_entries_manage .entries .col-picture div {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45px;
+    width: 60px;
+}
+#box_entries_manage .entries .col-description {
+    width: 20%;
+}
+#box_entries_manage .entries .col-categories {
+    width: 30%;
+}
+#box_entries_manage .entries .col-submitted {
+    width: 85px;
+}
+#box_entries_manage.entry-edit .entry-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 225px;
+    width: 300px;
+}
+
+/* #box_to_judge */
+#box_to_judge .col-judge,
+#box_judged .col-judge {
+    text-align: right;
+    width: 80px;
+}
+#box_judged .col-rating {
+    text-align: center;
+    width: 60px;
+}
+#box_to_judge.judge .judge-preview {
+    width: 100%;
+}
+#box_to_judge.judge .judge-preview td {
+    width: 50%;
+}
+#box_to_judge.judge .judge-preview .image-holder {
+    position: relative;
+}
+#box_to_judge.judge .judge-preview .image-holder div {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#box_to_judge.judge .judge-preview td .form-table th {
+    width: 30%;
+}
+
+/* #box_contest_reports */
+#box_contest_reports .reports-table-total th,
+#box_contest_reports .reports-table-total td {
+    vertical-align: middle;
+}
+#box_contest_reports .reports-table-total .col-report-value {
+    font-size: 32px;
+}
+#box_contest_reports .reports-table {
+    width: 100%;
+}
+#box_contest_reports .reports-table .col-report-divider {
+    display: block;
+    vertical-align: top;
+    width: 100%;
+}
+@media only screen and (min-width: 783px) {
+    #box_contest_reports .reports-table .col-report-divider {
+        display: table-cell;
+        padding-right: 20px;
+        width: 50%;
+    }
+    #box_contest_reports .reports-table .col-report-divider:nth-child(2n+2) {
+        padding-right: 0;
+    }
+}
+#box_contest_reports .reports-table .report-table {
+    margin-bottom: 4px;
+}
+#box_contest_reports .reports-table .col-report-value {
+    padding-right: 15px;
+    text-align: right;
+}
